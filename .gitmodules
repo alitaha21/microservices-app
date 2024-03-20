@@ -1,3 +1,0 @@
-[submodule "jwt-security"]
-	path = jwt-security
-	url = ./jwt-security
