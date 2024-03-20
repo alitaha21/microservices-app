@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: school
+  jpa:
+    hibernate:
+      ddl-auto: create
+server:
+  port: 8070
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  tracing:
+    sampling:
+      probability: 1.0
