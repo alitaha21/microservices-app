@@ -15,7 +15,7 @@ eureka:
   instance:
     hostname: localhost
 server:
-  port: 8090
+  port: 8400
 management:
   tracing:
     sampling:
