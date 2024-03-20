@@ -4,6 +4,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
+  docker:
+    compose:
+      file: school/compose.yaml
 server:
   port: 8070
 eureka:
