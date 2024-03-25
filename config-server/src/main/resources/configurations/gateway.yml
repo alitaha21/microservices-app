@@ -8,11 +8,11 @@ spring:
           enabled: true
       routes:
         - id: students
-          uri: http://localhost:8090
+          uri: http://localhost:8400
           predicates:
             - Path=/api/v1/students/**
         - id: schools
-          uri: http://localhost:8070
+          uri: http://localhost:8300
           predicates:
             - Path=/api/v1/schools/**
 eureka:

@@ -10,7 +10,7 @@ spring:
         format_sql: true
   docker:
     compose:
-      file: jwt-security/compose.yaml
+      file: security/compose.yaml
 server:
   port: 8200
 eureka:
